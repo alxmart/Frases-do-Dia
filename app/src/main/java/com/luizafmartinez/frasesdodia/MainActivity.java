@@ -1,11 +1,9 @@
 package com.luizafmartinez.frasesdodia;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         String frase = frases[numeroAleatorio];
 
         texto.setText(frase);
-
     }
 
     public void exibirTodas(View view) {
@@ -50,12 +47,6 @@ public class MainActivity extends AppCompatActivity {
     /*
     1) "" + "Frase 01" + quebra linha
     2) "Frase 01" + "Frase 02" + quebra linha
-    2) "Frase 01" + "Frase 02" + "FRase 03" + quebra linha
+    2) "Frase 01" + "Frase 02" + "Frase 03" + quebra linha
     */
-
-
-
-
-
-
 }
